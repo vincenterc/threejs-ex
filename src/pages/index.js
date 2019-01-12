@@ -1,4 +1,10 @@
 import React from 'react'
 import PageWrapper from '../components/PageWrapper'
 
-export default PageWrapper(() => <div>Gatsby starter!</div>)
+class HomePage extends React.Component {
+  render() {
+    return <div>Gatsby starter!</div>
+  }
+}
+
+export default PageWrapper(HomePage)
